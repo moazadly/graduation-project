@@ -1,0 +1,49 @@
+@font-face {
+  font-family: var(--font-lama), sans-serif !important;
+  src: url("/fonts/Arabic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --light: #fcf1ea;
+  --beige: #e6b373;
+  --main_color: #004f3f;
+  --secondary_color: #206357;
+  --dark_color: #1e1e1e;
+}
+body {
+  font-family: var(--font-lama), sans-serif !important;
+}
+.muirtl-5cvx94-MuiTypography-root-MuiBreadcrumbs-root {
+  font-family: var(--font-lama), sans-serif !important;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+.MuiAccordion-root {
+  border-bottom: none !important;
+  boxshadow: "1px 1px 11px -4px" !important;
+}
+.MuiAccordionSummary-root {
+  border-bottom: none !important;
+  boxshadow: "1px 1px 11px -4px" !important;
+}
+.MuiPaper-root::before {
+  display: none !important;
+}
+.MuiAccordionSummary-root::after {
+  display: none !important;
+}
+.muirtl-1dhj8uo-MuiPaper-root {
+  box-shadow: none !important;
+}
+.muirtl-1ym3qs2-MuiDataGrid-root .MuiDataGrid-cell {
+  padding: 100px 0;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
