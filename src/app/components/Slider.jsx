@@ -39,26 +39,13 @@ function Slider() {
       title: "التوليد المصطلحي",
       link: "/Terminology-Generation",
     },
-    {
-      image: voiceInteractive.src,
-      title: "التفاعل الصوتي",
-      link: "/speech-interaction",
-    },
-    {
-      image: translation.src,
-      title: "ترجمة",
-      link: "/translation",
-    },
-    {
-      image: wordLifeCycle.src,
-      title: "رحلة تطور الكلمات",
-      link: "/semantic-journey",
-    },
+
     {
       image: wordBeforeAfter.src,
       title: "السوابق واللواحق",
       link: "/Word-Before-After",
     },
+
     {
       image: trainEngine.src,
       title: "لعبة القطار",
@@ -70,6 +57,7 @@ function Slider() {
       link: "/Text-Correction",
     },
   ];
+
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
