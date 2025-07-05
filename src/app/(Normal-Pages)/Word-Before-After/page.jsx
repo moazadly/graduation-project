@@ -52,7 +52,7 @@ function page() {
   return (
     <div>
       <Container fixed maxWidth={"xl"} sx={{ mt: 3 }} component={"main"}>
-        <Navigation pageTitle="الكشاف السياقي" />
+        <Navigation pageTitle="السوابق اللواحق" />
         <Stack
           direction={{ xs: "column", lg: "row" }}
           alignItems={"center"}
