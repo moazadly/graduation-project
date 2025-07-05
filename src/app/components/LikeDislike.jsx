@@ -15,12 +15,6 @@ const LikeDislike = ({ term, definition }) => {
     setSelection((prev) => (prev === "like" ? null : "like"));
     setSuccess("");
     setError("");
-    try {
-      await suggestTerm({ definition, term }).unwrap();
-      setSuccess("تم تسجيل إعجابك بالمصطلح!");
-    } catch (e) {
-      setError("حدث خطأ أثناء إرسال الإعجاب.");
-    }
   };
   const handleDislike = () => {
     setSelection((prev) => (prev === "dislike" ? null : "dislike"));

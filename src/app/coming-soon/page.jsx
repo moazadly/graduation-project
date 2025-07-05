@@ -21,8 +21,8 @@ function ComingSoon() {
           <Image
             src="/assets/images/coming_soon3.png"
             alt="Coming Soon - Dictionary App"
-            width={350}
-            height={350}
+            width={250}
+            height={250}
             style={{
               borderRadius: "16px",
               objectFit: "contain",

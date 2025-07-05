@@ -22,7 +22,7 @@ const PAGES = [
   {
     image: contextSearch.src,
     title: "الكشاف السياقي",
-    link: "/Collocations-Finder",
+    link: "/Contextual-Explorer",
   },
   {
     image: beforeAfter.src,
